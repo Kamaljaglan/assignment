@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+                    body{
+        box-sizing: border-box;
+        border: 8px solid black;
+       
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+header h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+table th{
+  background-color: black;
+  height: 40px;
+}
+nav a{
+  font-size: 20px;
+  color: white;
+ text-decoration: none;
+
+}
+nav a:hover{
+  color: rgb(21, 224, 214);
+  cursor: pointer;
+}
+.skills{
+    list-style: none;
+    text-transform: uppercase;
+    width: 600px;   
+    margin: 60px auto;
+    
+
+}
+.skills h1{
+    text-align: center;
+}
+.skills li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: darkgreen;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 70%;
+}
+.php{
+    width: 10%;
+}
+.javascript{
+    width: 20%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="about">WELCOME TO MY WEBSITE</h1>
+        <nav>
+          <table >
+        <th><a href="index.html">Home</a></th>
+          <th ><a href="about.html">About Me</a></th>
+          <th><a href="contact page.html">Contact</a></th>
+          <th ><a href="skills.html">Skills</a></th>
+        </nav>
+      </table>
+      </header>
+      <div class="skills">
+         <h1>My Skills</h1>
+
+         <li><h3>html</h3>
+        <span class="bar"><span class="html"></span></span></li>
+
+        <li><h3>css</h3>
+            <span class="bar"><span class="css"></span></span></li>
+
+        <li><h3>php</h3>
+                <span class="bar"><span class="php"></span></span></li>
+
+        <li><h3>javascript</h3>
+                    <span class="bar"><span class="javascript"></span></span></li>
+      </div>
+    
+</body>
+</html>
